@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    height: 100vh;
+   background-color: #3a125f;
+   background-image: linear-gradient(to top right,blueviolet 15%,#3a125f 10%);
+}
+.content
+{
+    height: inherit;
+    width: 1400px;
+    /* width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    display: flex;
+    padding-top: 5px;
+}
+.logo
+{
+    width: 10%
+}
+.nav
+{
+    flex-grow: 1;
+}
+.btn
+{
+    width:15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav > ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav > ul li
+{
+    padding: 15px;
+}
+.nav > ul li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: rgb(210, 175, 243);
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(210, 175, 243);
+    
+}
+.logo span
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Berkshire Swash', cursive;
+}
+.logo i{
+    font-size: 35px;
+}
+
+.btn >button
+{
+    width:80px;
+    margin-top: 20px;
+    border-color: #3a125f;
+    border-radius: 10px;
+    
+    color: #e1d5ec;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 0;
+    background: linear-gradient(to left,blueviolet ,rgb(170, 121, 216) );
+
+}
+.sec
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec h1
+{
+    text-transform: capitalize;
+    color: white;
+    font-size: 46px;
+}
+.sec h1 span
+{
+    text-transform: uppercase;
+}
+.sec p
+{
+    line-height: 30px;
+    margin: 20px 0 20px 0;
+
+    color: white;
+    font-size: 20px;
+    word-spacing: .3rem;
+
+}
+.sec p span
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sec button
+{
+    text-transform: capitalize;
+    width: 100px;
+    padding: 15px;
+    color:white ;
+    background-color:blueviolet;
+
+    border: 0;
+    border-radius: 25px;
+    background: linear-gradient(to left,blueviolet ,rgb(170, 121, 216) );
+}
+
+.footer i
+{
+    color: white;
+    background-color:rgb(43, 14, 66);
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    margin: 15px;
+  
+}
+
+.footer
+{
+    text-align: end;
+    margin-bottom: 20px;
+    
+}
+.footer .fa-code
+{
+    border:7px solid rgb(68, 250, 241);
+}
+.footer .fa-html5
+{
+    border:7px solid rgb(18, 98, 202);
+}
+.footer .fa-css3
+{
+    border:7px solid rgb(240, 96, 12);
+}
+.footer .fa-diamond
+{
+    border:7px solid rgb(231, 40, 129);
+}
+.footer .fa-quora
+{
+    border:7px solid rgb(245, 151, 11);
+}
+
+
